@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+/* Style for the taskbar */
+ul.taskbar {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    padding-right: 100px;
+    overflow: hidden;
+    background-color: #333; /* Background color of the taskbar */
+    position: fixed;
+    bottom: 0; /* Position it at the bottom of the page */
+    width: 100%; /* Make it full-width */
+}
+
+/* Style for taskbar items */
+ul.taskbar li {
+    float: left;
+}
+
+ul.taskbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 80px 14px 190px;
+    text-decoration: none;
+}
+
+ul.taskbar li a:hover {
+    background-color: #555; /* Background color when hovering over a link */
+}
