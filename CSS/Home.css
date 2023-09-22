@@ -38,3 +38,9 @@ ul.taskbar li a:hover {
     margin-top: 250px;
     font-size: 30px;
 }
+
+.welcome:hover{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
