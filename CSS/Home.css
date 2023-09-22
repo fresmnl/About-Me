@@ -32,3 +32,9 @@ ul.taskbar li a {
 ul.taskbar li a:hover {
     background-color: #555; /* Background color when hovering over a link */
 }
+
+.welcome{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 30px;
+}
